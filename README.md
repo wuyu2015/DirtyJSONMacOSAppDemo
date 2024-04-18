@@ -6,4 +6,10 @@ A simple macOS demo app showcasing the usage of the [DirtyJSONSwift](https://git
 
 [ [Download this Demo App](https://github.com/wuyu2015/DirtyJSONMacOSAppDemo/releases/download/1.0.0/DirtyJSON.app.zip)  |  [下载](https://github.com/wuyu2015/DirtyJSONMacOSAppDemo/releases/download/1.0.0/DirtyJSON.app.zip) ]
 
-<img src="https://raw.githubusercontent.com/wuyu2015/DirtyJSONMacOSAppDemo/main/screenshot.png" alt="screenshot" style="zoom:100%;" />
+<img src="https://raw.githubusercontent.com/wuyu2015/DirtyJSONMacOSAppDemo/main/screenshot.png" alt="screenshot" style="width: 712px;" />
+
+<video controls>
+  <source src="https://github.com/wuyu2015/DirtyJSONMacOSAppDemo/raw/main/screen_recording.mov" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
