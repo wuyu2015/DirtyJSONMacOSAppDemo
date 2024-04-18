@@ -1,0 +1,941 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 52;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE26D3BD2BD1C12C0096BCA5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = FE26D3BC2BD1C12C0096BCA5 /* README.md */; };
+		FE26D3BF2BD1C1450096BCA5 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = FE26D3BE2BD1C1450096BCA5 /* LICENSE */; };
+		FE26D3C12BD1C1610096BCA5 /* screenshot.png in Resources */ = {isa = PBXBuildFile; fileRef = FE26D3C02BD1C1610096BCA5 /* screenshot.png */; };
+		FE91F49B2BD1BB43003C34B6 /* DirtyJSON in Frameworks */ = {isa = PBXBuildFile; productRef = FE91F49A2BD1BB43003C34B6 /* DirtyJSON */; };
+		FEF822B72BD1B80800DE3F46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEF822B62BD1B80800DE3F46 /* Assets.xcassets */; };
+		FEF822C62BD1B80800DE3F46 /* DirtyJSONMacOSAppDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF822C52BD1B80800DE3F46 /* DirtyJSONMacOSAppDemoTests.swift */; };
+		FEF822D12BD1B80800DE3F46 /* DirtyJSONMacOSAppDemoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF822D02BD1B80800DE3F46 /* DirtyJSONMacOSAppDemoUITests.swift */; };
+		FEF823132BD1B88300DE3F46 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF822DE2BD1B88300DE3F46 /* main.swift */; };
+		FEF823142BD1B88300DE3F46 /* MainWindowToolbarPasteButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF822E32BD1B88300DE3F46 /* MainWindowToolbarPasteButton.swift */; };
+		FEF823152BD1B88300DE3F46 /* MainWindowToolbarCopyButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF822E42BD1B88300DE3F46 /* MainWindowToolbarCopyButton.swift */; };
+		FEF823162BD1B88300DE3F46 /* MainWindowToolbarSaveButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF822E52BD1B88300DE3F46 /* MainWindowToolbarSaveButton.swift */; };
+		FEF823172BD1B88300DE3F46 /* MainWindowToolbarClearButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF822E62BD1B88300DE3F46 /* MainWindowToolbarClearButton.swift */; };
+		FEF823182BD1B88300DE3F46 /* MainWindowToolbarButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF822E72BD1B88300DE3F46 /* MainWindowToolbarButton.swift */; };
+		FEF823192BD1B88300DE3F46 /* MainWindowToolbarSegmentedControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF822E92BD1B88300DE3F46 /* MainWindowToolbarSegmentedControl.swift */; };
+		FEF8231A2BD1B88300DE3F46 /* MainWindowToolbar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF822EA2BD1B88300DE3F46 /* MainWindowToolbar.swift */; };
+		FEF8231B2BD1B88300DE3F46 /* MainWindow+NSTextViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF822EB2BD1B88300DE3F46 /* MainWindow+NSTextViewDelegate.swift */; };
+		FEF8231C2BD1B88300DE3F46 /* MainWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF822EC2BD1B88300DE3F46 /* MainWindow.swift */; };
+		FEF8231D2BD1B88300DE3F46 /* MainWindow+override.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF822ED2BD1B88300DE3F46 /* MainWindow+override.swift */; };
+		FEF8231E2BD1B88300DE3F46 /* MainWindowData.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF822EF2BD1B88300DE3F46 /* MainWindowData.swift */; };
+		FEF8231F2BD1B88300DE3F46 /* MainContentScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF822F22BD1B88300DE3F46 /* MainContentScrollView.swift */; };
+		FEF823202BD1B88300DE3F46 /* MainContentTextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF822F42BD1B88300DE3F46 /* MainContentTextView.swift */; };
+		FEF823212BD1B88300DE3F46 /* MainContentTextPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF822F52BD1B88300DE3F46 /* MainContentTextPlaceholderView.swift */; };
+		FEF823222BD1B88300DE3F46 /* MainContentWithScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF822F72BD1B88300DE3F46 /* MainContentWithScrollView.swift */; };
+		FEF823232BD1B88300DE3F46 /* MainContentJsonFormattedView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF822F92BD1B88300DE3F46 /* MainContentJsonFormattedView.swift */; };
+		FEF823242BD1B88300DE3F46 /* MainContentJsonCompactView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF822FB2BD1B88300DE3F46 /* MainContentJsonCompactView.swift */; };
+		FEF823252BD1B88300DE3F46 /* MainContentPlaceholderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF822FC2BD1B88300DE3F46 /* MainContentPlaceholderView.swift */; };
+		FEF823262BD1B88300DE3F46 /* MainContentJsonRawView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF822FE2BD1B88300DE3F46 /* MainContentJsonRawView.swift */; };
+		FEF823272BD1B88300DE3F46 /* Lib.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF823002BD1B88300DE3F46 /* Lib.swift */; };
+		FEF823282BD1B88300DE3F46 /* Lib.Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF823022BD1B88300DE3F46 /* Lib.Constants.swift */; };
+		FEF823292BD1B88300DE3F46 /* MainMenu.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF823042BD1B88300DE3F46 /* MainMenu.swift */; };
+		FEF8232A2BD1B88300DE3F46 /* MainMenu+actions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF823062BD1B88300DE3F46 /* MainMenu+actions.swift */; };
+		FEF8232B2BD1B88300DE3F46 /* MainMenu+viewMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF823082BD1B88300DE3F46 /* MainMenu+viewMenuItem.swift */; };
+		FEF8232C2BD1B88300DE3F46 /* MainMenu+fileMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF823092BD1B88300DE3F46 /* MainMenu+fileMenuItem.swift */; };
+		FEF8232D2BD1B88300DE3F46 /* MainMenu+windowMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF8230A2BD1B88300DE3F46 /* MainMenu+windowMenuItem.swift */; };
+		FEF8232E2BD1B88300DE3F46 /* MainMenu+editMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF8230B2BD1B88300DE3F46 /* MainMenu+editMenuItem.swift */; };
+		FEF8232F2BD1B88300DE3F46 /* MainMenu+helpMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF8230C2BD1B88300DE3F46 /* MainMenu+helpMenuItem.swift */; };
+		FEF823302BD1B88300DE3F46 /* MainMenu+appMenuItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF8230D2BD1B88300DE3F46 /* MainMenu+appMenuItem.swift */; };
+		FEF823312BD1B88300DE3F46 /* MainMenu+NSMenuItemValidation.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF8230F2BD1B88300DE3F46 /* MainMenu+NSMenuItemValidation.swift */; };
+		FEF823322BD1B88300DE3F46 /* MainMenu+NSMenuDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF823102BD1B88300DE3F46 /* MainMenu+NSMenuDelegate.swift */; };
+		FEF823332BD1B88300DE3F46 /* Application.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEF823122BD1B88300DE3F46 /* Application.swift */; };
+		FEF8233E2BD1B9A000DE3F46 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = FEF823402BD1B9A000DE3F46 /* Localizable.strings */; };
+		FEF823452BD1BA5D00DE3F46 /* StupidNSWindow in Frameworks */ = {isa = PBXBuildFile; productRef = FEF823442BD1BA5D00DE3F46 /* StupidNSWindow */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FEF822C22BD1B80800DE3F46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEF822A92BD1B80700DE3F46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEF822B02BD1B80700DE3F46;
+			remoteInfo = DirtyJSONMacOSAppDemo;
+		};
+		FEF822CD2BD1B80800DE3F46 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FEF822A92BD1B80700DE3F46 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FEF822B02BD1B80700DE3F46;
+			remoteInfo = DirtyJSONMacOSAppDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE26D3BC2BD1C12C0096BCA5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		FE26D3BE2BD1C1450096BCA5 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		FE26D3C02BD1C1610096BCA5 /* screenshot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = screenshot.png; sourceTree = "<group>"; };
+		FEF822B12BD1B80700DE3F46 /* DirtyJSONMacOSAppDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DirtyJSONMacOSAppDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEF822B62BD1B80800DE3F46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FEF822BB2BD1B80800DE3F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEF822BC2BD1B80800DE3F46 /* DirtyJSONMacOSAppDemo.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DirtyJSONMacOSAppDemo.entitlements; sourceTree = "<group>"; };
+		FEF822C12BD1B80800DE3F46 /* DirtyJSONMacOSAppDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DirtyJSONMacOSAppDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEF822C52BD1B80800DE3F46 /* DirtyJSONMacOSAppDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirtyJSONMacOSAppDemoTests.swift; sourceTree = "<group>"; };
+		FEF822C72BD1B80800DE3F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEF822CC2BD1B80800DE3F46 /* DirtyJSONMacOSAppDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DirtyJSONMacOSAppDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FEF822D02BD1B80800DE3F46 /* DirtyJSONMacOSAppDemoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirtyJSONMacOSAppDemoUITests.swift; sourceTree = "<group>"; };
+		FEF822D22BD1B80800DE3F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEF822DE2BD1B88300DE3F46 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FEF822E32BD1B88300DE3F46 /* MainWindowToolbarPasteButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowToolbarPasteButton.swift; sourceTree = "<group>"; };
+		FEF822E42BD1B88300DE3F46 /* MainWindowToolbarCopyButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowToolbarCopyButton.swift; sourceTree = "<group>"; };
+		FEF822E52BD1B88300DE3F46 /* MainWindowToolbarSaveButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowToolbarSaveButton.swift; sourceTree = "<group>"; };
+		FEF822E62BD1B88300DE3F46 /* MainWindowToolbarClearButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowToolbarClearButton.swift; sourceTree = "<group>"; };
+		FEF822E72BD1B88300DE3F46 /* MainWindowToolbarButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowToolbarButton.swift; sourceTree = "<group>"; };
+		FEF822E92BD1B88300DE3F46 /* MainWindowToolbarSegmentedControl.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowToolbarSegmentedControl.swift; sourceTree = "<group>"; };
+		FEF822EA2BD1B88300DE3F46 /* MainWindowToolbar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowToolbar.swift; sourceTree = "<group>"; };
+		FEF822EB2BD1B88300DE3F46 /* MainWindow+NSTextViewDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MainWindow+NSTextViewDelegate.swift"; sourceTree = "<group>"; };
+		FEF822EC2BD1B88300DE3F46 /* MainWindow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindow.swift; sourceTree = "<group>"; };
+		FEF822ED2BD1B88300DE3F46 /* MainWindow+override.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MainWindow+override.swift"; sourceTree = "<group>"; };
+		FEF822EF2BD1B88300DE3F46 /* MainWindowData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainWindowData.swift; sourceTree = "<group>"; };
+		FEF822F22BD1B88300DE3F46 /* MainContentScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainContentScrollView.swift; sourceTree = "<group>"; };
+		FEF822F42BD1B88300DE3F46 /* MainContentTextView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainContentTextView.swift; sourceTree = "<group>"; };
+		FEF822F52BD1B88300DE3F46 /* MainContentTextPlaceholderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainContentTextPlaceholderView.swift; sourceTree = "<group>"; };
+		FEF822F72BD1B88300DE3F46 /* MainContentWithScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainContentWithScrollView.swift; sourceTree = "<group>"; };
+		FEF822F92BD1B88300DE3F46 /* MainContentJsonFormattedView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainContentJsonFormattedView.swift; sourceTree = "<group>"; };
+		FEF822FB2BD1B88300DE3F46 /* MainContentJsonCompactView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainContentJsonCompactView.swift; sourceTree = "<group>"; };
+		FEF822FC2BD1B88300DE3F46 /* MainContentPlaceholderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainContentPlaceholderView.swift; sourceTree = "<group>"; };
+		FEF822FE2BD1B88300DE3F46 /* MainContentJsonRawView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainContentJsonRawView.swift; sourceTree = "<group>"; };
+		FEF823002BD1B88300DE3F46 /* Lib.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lib.swift; sourceTree = "<group>"; };
+		FEF823022BD1B88300DE3F46 /* Lib.Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Lib.Constants.swift; sourceTree = "<group>"; };
+		FEF823042BD1B88300DE3F46 /* MainMenu.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainMenu.swift; sourceTree = "<group>"; };
+		FEF823062BD1B88300DE3F46 /* MainMenu+actions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MainMenu+actions.swift"; sourceTree = "<group>"; };
+		FEF823082BD1B88300DE3F46 /* MainMenu+viewMenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MainMenu+viewMenuItem.swift"; sourceTree = "<group>"; };
+		FEF823092BD1B88300DE3F46 /* MainMenu+fileMenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MainMenu+fileMenuItem.swift"; sourceTree = "<group>"; };
+		FEF8230A2BD1B88300DE3F46 /* MainMenu+windowMenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MainMenu+windowMenuItem.swift"; sourceTree = "<group>"; };
+		FEF8230B2BD1B88300DE3F46 /* MainMenu+editMenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MainMenu+editMenuItem.swift"; sourceTree = "<group>"; };
+		FEF8230C2BD1B88300DE3F46 /* MainMenu+helpMenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MainMenu+helpMenuItem.swift"; sourceTree = "<group>"; };
+		FEF8230D2BD1B88300DE3F46 /* MainMenu+appMenuItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MainMenu+appMenuItem.swift"; sourceTree = "<group>"; };
+		FEF8230F2BD1B88300DE3F46 /* MainMenu+NSMenuItemValidation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MainMenu+NSMenuItemValidation.swift"; sourceTree = "<group>"; };
+		FEF823102BD1B88300DE3F46 /* MainMenu+NSMenuDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "MainMenu+NSMenuDelegate.swift"; sourceTree = "<group>"; };
+		FEF823122BD1B88300DE3F46 /* Application.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Application.swift; sourceTree = "<group>"; };
+		FEF823412BD1B9A500DE3F46 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		FEF823422BD1B9B300DE3F46 /* zh-Hans */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hans"; path = "zh-Hans.lproj/Localizable.strings"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FEF822AE2BD1B80700DE3F46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEF823452BD1BA5D00DE3F46 /* StupidNSWindow in Frameworks */,
+				FE91F49B2BD1BB43003C34B6 /* DirtyJSON in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEF822BE2BD1B80800DE3F46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEF822C92BD1B80800DE3F46 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FEF822A82BD1B80700DE3F46 = {
+			isa = PBXGroup;
+			children = (
+				FE26D3BC2BD1C12C0096BCA5 /* README.md */,
+				FE26D3BE2BD1C1450096BCA5 /* LICENSE */,
+				FE26D3C02BD1C1610096BCA5 /* screenshot.png */,
+				FEF822B32BD1B80700DE3F46 /* DirtyJSONMacOSAppDemo */,
+				FEF822C42BD1B80800DE3F46 /* DirtyJSONMacOSAppDemoTests */,
+				FEF822CF2BD1B80800DE3F46 /* DirtyJSONMacOSAppDemoUITests */,
+				FEF822B22BD1B80700DE3F46 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FEF822B22BD1B80700DE3F46 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FEF822B12BD1B80700DE3F46 /* DirtyJSONMacOSAppDemo.app */,
+				FEF822C12BD1B80800DE3F46 /* DirtyJSONMacOSAppDemoTests.xctest */,
+				FEF822CC2BD1B80800DE3F46 /* DirtyJSONMacOSAppDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FEF822B32BD1B80700DE3F46 /* DirtyJSONMacOSAppDemo */ = {
+			isa = PBXGroup;
+			children = (
+				FEF822DE2BD1B88300DE3F46 /* main.swift */,
+				FEF822DF2BD1B88300DE3F46 /* lib */,
+				FEF823342BD1B89100DE3F46 /* res */,
+				FEF822BB2BD1B80800DE3F46 /* Info.plist */,
+				FEF822BC2BD1B80800DE3F46 /* DirtyJSONMacOSAppDemo.entitlements */,
+			);
+			path = DirtyJSONMacOSAppDemo;
+			sourceTree = "<group>";
+		};
+		FEF822C42BD1B80800DE3F46 /* DirtyJSONMacOSAppDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				FEF822C52BD1B80800DE3F46 /* DirtyJSONMacOSAppDemoTests.swift */,
+				FEF822C72BD1B80800DE3F46 /* Info.plist */,
+			);
+			path = DirtyJSONMacOSAppDemoTests;
+			sourceTree = "<group>";
+		};
+		FEF822CF2BD1B80800DE3F46 /* DirtyJSONMacOSAppDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				FEF822D02BD1B80800DE3F46 /* DirtyJSONMacOSAppDemoUITests.swift */,
+				FEF822D22BD1B80800DE3F46 /* Info.plist */,
+			);
+			path = DirtyJSONMacOSAppDemoUITests;
+			sourceTree = "<group>";
+		};
+		FEF822DF2BD1B88300DE3F46 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				FEF822FF2BD1B88300DE3F46 /* Lib */,
+				FEF823112BD1B88300DE3F46 /* Application */,
+				FEF823032BD1B88300DE3F46 /* MainMenu */,
+				FEF822E02BD1B88300DE3F46 /* MainWindow */,
+				FEF822F02BD1B88300DE3F46 /* MainContentView */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		FEF822E02BD1B88300DE3F46 /* MainWindow */ = {
+			isa = PBXGroup;
+			children = (
+				FEF822E12BD1B88300DE3F46 /* Toolbar */,
+				FEF822EB2BD1B88300DE3F46 /* MainWindow+NSTextViewDelegate.swift */,
+				FEF822EC2BD1B88300DE3F46 /* MainWindow.swift */,
+				FEF822ED2BD1B88300DE3F46 /* MainWindow+override.swift */,
+				FEF822EE2BD1B88300DE3F46 /* Data */,
+			);
+			path = MainWindow;
+			sourceTree = "<group>";
+		};
+		FEF822E12BD1B88300DE3F46 /* Toolbar */ = {
+			isa = PBXGroup;
+			children = (
+				FEF822E22BD1B88300DE3F46 /* Button */,
+				FEF822E82BD1B88300DE3F46 /* SegmentedControl */,
+				FEF822EA2BD1B88300DE3F46 /* MainWindowToolbar.swift */,
+			);
+			path = Toolbar;
+			sourceTree = "<group>";
+		};
+		FEF822E22BD1B88300DE3F46 /* Button */ = {
+			isa = PBXGroup;
+			children = (
+				FEF822E32BD1B88300DE3F46 /* MainWindowToolbarPasteButton.swift */,
+				FEF822E42BD1B88300DE3F46 /* MainWindowToolbarCopyButton.swift */,
+				FEF822E52BD1B88300DE3F46 /* MainWindowToolbarSaveButton.swift */,
+				FEF822E62BD1B88300DE3F46 /* MainWindowToolbarClearButton.swift */,
+				FEF822E72BD1B88300DE3F46 /* MainWindowToolbarButton.swift */,
+			);
+			path = Button;
+			sourceTree = "<group>";
+		};
+		FEF822E82BD1B88300DE3F46 /* SegmentedControl */ = {
+			isa = PBXGroup;
+			children = (
+				FEF822E92BD1B88300DE3F46 /* MainWindowToolbarSegmentedControl.swift */,
+			);
+			path = SegmentedControl;
+			sourceTree = "<group>";
+		};
+		FEF822EE2BD1B88300DE3F46 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				FEF822EF2BD1B88300DE3F46 /* MainWindowData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		FEF822F02BD1B88300DE3F46 /* MainContentView */ = {
+			isa = PBXGroup;
+			children = (
+				FEF822F12BD1B88300DE3F46 /* ScrollView */,
+				FEF822F32BD1B88300DE3F46 /* TextView */,
+				FEF822F62BD1B88300DE3F46 /* ContentView */,
+			);
+			path = MainContentView;
+			sourceTree = "<group>";
+		};
+		FEF822F12BD1B88300DE3F46 /* ScrollView */ = {
+			isa = PBXGroup;
+			children = (
+				FEF822F22BD1B88300DE3F46 /* MainContentScrollView.swift */,
+			);
+			path = ScrollView;
+			sourceTree = "<group>";
+		};
+		FEF822F32BD1B88300DE3F46 /* TextView */ = {
+			isa = PBXGroup;
+			children = (
+				FEF822F42BD1B88300DE3F46 /* MainContentTextView.swift */,
+				FEF822F52BD1B88300DE3F46 /* MainContentTextPlaceholderView.swift */,
+			);
+			path = TextView;
+			sourceTree = "<group>";
+		};
+		FEF822F62BD1B88300DE3F46 /* ContentView */ = {
+			isa = PBXGroup;
+			children = (
+				FEF822F72BD1B88300DE3F46 /* MainContentWithScrollView.swift */,
+				FEF822F82BD1B88300DE3F46 /* formatted */,
+				FEF822FA2BD1B88300DE3F46 /* compact */,
+				FEF822FC2BD1B88300DE3F46 /* MainContentPlaceholderView.swift */,
+				FEF822FD2BD1B88300DE3F46 /* raw */,
+			);
+			path = ContentView;
+			sourceTree = "<group>";
+		};
+		FEF822F82BD1B88300DE3F46 /* formatted */ = {
+			isa = PBXGroup;
+			children = (
+				FEF822F92BD1B88300DE3F46 /* MainContentJsonFormattedView.swift */,
+			);
+			path = formatted;
+			sourceTree = "<group>";
+		};
+		FEF822FA2BD1B88300DE3F46 /* compact */ = {
+			isa = PBXGroup;
+			children = (
+				FEF822FB2BD1B88300DE3F46 /* MainContentJsonCompactView.swift */,
+			);
+			path = compact;
+			sourceTree = "<group>";
+		};
+		FEF822FD2BD1B88300DE3F46 /* raw */ = {
+			isa = PBXGroup;
+			children = (
+				FEF822FE2BD1B88300DE3F46 /* MainContentJsonRawView.swift */,
+			);
+			path = raw;
+			sourceTree = "<group>";
+		};
+		FEF822FF2BD1B88300DE3F46 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				FEF823002BD1B88300DE3F46 /* Lib.swift */,
+				FEF823012BD1B88300DE3F46 /* Constants */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		FEF823012BD1B88300DE3F46 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				FEF823022BD1B88300DE3F46 /* Lib.Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		FEF823032BD1B88300DE3F46 /* MainMenu */ = {
+			isa = PBXGroup;
+			children = (
+				FEF823042BD1B88300DE3F46 /* MainMenu.swift */,
+				FEF823052BD1B88300DE3F46 /* actions */,
+				FEF823072BD1B88300DE3F46 /* menuItems */,
+				FEF8230E2BD1B88300DE3F46 /* delegates */,
+			);
+			path = MainMenu;
+			sourceTree = "<group>";
+		};
+		FEF823052BD1B88300DE3F46 /* actions */ = {
+			isa = PBXGroup;
+			children = (
+				FEF823062BD1B88300DE3F46 /* MainMenu+actions.swift */,
+			);
+			path = actions;
+			sourceTree = "<group>";
+		};
+		FEF823072BD1B88300DE3F46 /* menuItems */ = {
+			isa = PBXGroup;
+			children = (
+				FEF823082BD1B88300DE3F46 /* MainMenu+viewMenuItem.swift */,
+				FEF823092BD1B88300DE3F46 /* MainMenu+fileMenuItem.swift */,
+				FEF8230A2BD1B88300DE3F46 /* MainMenu+windowMenuItem.swift */,
+				FEF8230B2BD1B88300DE3F46 /* MainMenu+editMenuItem.swift */,
+				FEF8230C2BD1B88300DE3F46 /* MainMenu+helpMenuItem.swift */,
+				FEF8230D2BD1B88300DE3F46 /* MainMenu+appMenuItem.swift */,
+			);
+			path = menuItems;
+			sourceTree = "<group>";
+		};
+		FEF8230E2BD1B88300DE3F46 /* delegates */ = {
+			isa = PBXGroup;
+			children = (
+				FEF8230F2BD1B88300DE3F46 /* MainMenu+NSMenuItemValidation.swift */,
+				FEF823102BD1B88300DE3F46 /* MainMenu+NSMenuDelegate.swift */,
+			);
+			path = delegates;
+			sourceTree = "<group>";
+		};
+		FEF823112BD1B88300DE3F46 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				FEF823122BD1B88300DE3F46 /* Application.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		FEF823342BD1B89100DE3F46 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				FEF823402BD1B9A000DE3F46 /* Localizable.strings */,
+				FEF822B62BD1B80800DE3F46 /* Assets.xcassets */,
+			);
+			path = res;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FEF822B02BD1B80700DE3F46 /* DirtyJSONMacOSAppDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEF822D52BD1B80800DE3F46 /* Build configuration list for PBXNativeTarget "DirtyJSONMacOSAppDemo" */;
+			buildPhases = (
+				FEF822AD2BD1B80700DE3F46 /* Sources */,
+				FEF822AE2BD1B80700DE3F46 /* Frameworks */,
+				FEF822AF2BD1B80700DE3F46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DirtyJSONMacOSAppDemo;
+			packageProductDependencies = (
+				FEF823442BD1BA5D00DE3F46 /* StupidNSWindow */,
+				FE91F49A2BD1BB43003C34B6 /* DirtyJSON */,
+			);
+			productName = DirtyJSONMacOSAppDemo;
+			productReference = FEF822B12BD1B80700DE3F46 /* DirtyJSONMacOSAppDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FEF822C02BD1B80800DE3F46 /* DirtyJSONMacOSAppDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEF822D82BD1B80800DE3F46 /* Build configuration list for PBXNativeTarget "DirtyJSONMacOSAppDemoTests" */;
+			buildPhases = (
+				FEF822BD2BD1B80800DE3F46 /* Sources */,
+				FEF822BE2BD1B80800DE3F46 /* Frameworks */,
+				FEF822BF2BD1B80800DE3F46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEF822C32BD1B80800DE3F46 /* PBXTargetDependency */,
+			);
+			name = DirtyJSONMacOSAppDemoTests;
+			productName = DirtyJSONMacOSAppDemoTests;
+			productReference = FEF822C12BD1B80800DE3F46 /* DirtyJSONMacOSAppDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		FEF822CB2BD1B80800DE3F46 /* DirtyJSONMacOSAppDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FEF822DB2BD1B80800DE3F46 /* Build configuration list for PBXNativeTarget "DirtyJSONMacOSAppDemoUITests" */;
+			buildPhases = (
+				FEF822C82BD1B80800DE3F46 /* Sources */,
+				FEF822C92BD1B80800DE3F46 /* Frameworks */,
+				FEF822CA2BD1B80800DE3F46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FEF822CE2BD1B80800DE3F46 /* PBXTargetDependency */,
+			);
+			name = DirtyJSONMacOSAppDemoUITests;
+			productName = DirtyJSONMacOSAppDemoUITests;
+			productReference = FEF822CC2BD1B80800DE3F46 /* DirtyJSONMacOSAppDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FEF822A92BD1B80700DE3F46 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = wuyu;
+				TargetAttributes = {
+					FEF822B02BD1B80700DE3F46 = {
+						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
+					};
+					FEF822C02BD1B80800DE3F46 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = FEF822B02BD1B80700DE3F46;
+					};
+					FEF822CB2BD1B80800DE3F46 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = FEF822B02BD1B80700DE3F46;
+					};
+				};
+			};
+			buildConfigurationList = FEF822AC2BD1B80700DE3F46 /* Build configuration list for PBXProject "DirtyJSONMacOSAppDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hans",
+			);
+			mainGroup = FEF822A82BD1B80700DE3F46;
+			packageReferences = (
+				FEF823432BD1BA5D00DE3F46 /* XCRemoteSwiftPackageReference "StupidNSWindow" */,
+				FE91F4992BD1BB43003C34B6 /* XCRemoteSwiftPackageReference "DirtyJSONSwift" */,
+			);
+			productRefGroup = FEF822B22BD1B80700DE3F46 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FEF822B02BD1B80700DE3F46 /* DirtyJSONMacOSAppDemo */,
+				FEF822C02BD1B80800DE3F46 /* DirtyJSONMacOSAppDemoTests */,
+				FEF822CB2BD1B80800DE3F46 /* DirtyJSONMacOSAppDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FEF822AF2BD1B80700DE3F46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE26D3BD2BD1C12C0096BCA5 /* README.md in Resources */,
+				FEF822B72BD1B80800DE3F46 /* Assets.xcassets in Resources */,
+				FE26D3BF2BD1C1450096BCA5 /* LICENSE in Resources */,
+				FEF8233E2BD1B9A000DE3F46 /* Localizable.strings in Resources */,
+				FE26D3C12BD1C1610096BCA5 /* screenshot.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEF822BF2BD1B80800DE3F46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEF822CA2BD1B80800DE3F46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FEF822AD2BD1B80700DE3F46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEF823222BD1B88300DE3F46 /* MainContentWithScrollView.swift in Sources */,
+				FEF823152BD1B88300DE3F46 /* MainWindowToolbarCopyButton.swift in Sources */,
+				FEF8231F2BD1B88300DE3F46 /* MainContentScrollView.swift in Sources */,
+				FEF823272BD1B88300DE3F46 /* Lib.swift in Sources */,
+				FEF823282BD1B88300DE3F46 /* Lib.Constants.swift in Sources */,
+				FEF8232E2BD1B88300DE3F46 /* MainMenu+editMenuItem.swift in Sources */,
+				FEF823252BD1B88300DE3F46 /* MainContentPlaceholderView.swift in Sources */,
+				FEF823162BD1B88300DE3F46 /* MainWindowToolbarSaveButton.swift in Sources */,
+				FEF8232A2BD1B88300DE3F46 /* MainMenu+actions.swift in Sources */,
+				FEF8231C2BD1B88300DE3F46 /* MainWindow.swift in Sources */,
+				FEF8232D2BD1B88300DE3F46 /* MainMenu+windowMenuItem.swift in Sources */,
+				FEF8231A2BD1B88300DE3F46 /* MainWindowToolbar.swift in Sources */,
+				FEF823242BD1B88300DE3F46 /* MainContentJsonCompactView.swift in Sources */,
+				FEF8231D2BD1B88300DE3F46 /* MainWindow+override.swift in Sources */,
+				FEF823322BD1B88300DE3F46 /* MainMenu+NSMenuDelegate.swift in Sources */,
+				FEF823182BD1B88300DE3F46 /* MainWindowToolbarButton.swift in Sources */,
+				FEF823312BD1B88300DE3F46 /* MainMenu+NSMenuItemValidation.swift in Sources */,
+				FEF823292BD1B88300DE3F46 /* MainMenu.swift in Sources */,
+				FEF8232F2BD1B88300DE3F46 /* MainMenu+helpMenuItem.swift in Sources */,
+				FEF8231E2BD1B88300DE3F46 /* MainWindowData.swift in Sources */,
+				FEF823192BD1B88300DE3F46 /* MainWindowToolbarSegmentedControl.swift in Sources */,
+				FEF823142BD1B88300DE3F46 /* MainWindowToolbarPasteButton.swift in Sources */,
+				FEF823202BD1B88300DE3F46 /* MainContentTextView.swift in Sources */,
+				FEF823302BD1B88300DE3F46 /* MainMenu+appMenuItem.swift in Sources */,
+				FEF823332BD1B88300DE3F46 /* Application.swift in Sources */,
+				FEF823172BD1B88300DE3F46 /* MainWindowToolbarClearButton.swift in Sources */,
+				FEF8232C2BD1B88300DE3F46 /* MainMenu+fileMenuItem.swift in Sources */,
+				FEF823212BD1B88300DE3F46 /* MainContentTextPlaceholderView.swift in Sources */,
+				FEF823132BD1B88300DE3F46 /* main.swift in Sources */,
+				FEF8231B2BD1B88300DE3F46 /* MainWindow+NSTextViewDelegate.swift in Sources */,
+				FEF823262BD1B88300DE3F46 /* MainContentJsonRawView.swift in Sources */,
+				FEF823232BD1B88300DE3F46 /* MainContentJsonFormattedView.swift in Sources */,
+				FEF8232B2BD1B88300DE3F46 /* MainMenu+viewMenuItem.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEF822BD2BD1B80800DE3F46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEF822C62BD1B80800DE3F46 /* DirtyJSONMacOSAppDemoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FEF822C82BD1B80800DE3F46 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEF822D12BD1B80800DE3F46 /* DirtyJSONMacOSAppDemoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FEF822C32BD1B80800DE3F46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEF822B02BD1B80700DE3F46 /* DirtyJSONMacOSAppDemo */;
+			targetProxy = FEF822C22BD1B80800DE3F46 /* PBXContainerItemProxy */;
+		};
+		FEF822CE2BD1B80800DE3F46 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FEF822B02BD1B80700DE3F46 /* DirtyJSONMacOSAppDemo */;
+			targetProxy = FEF822CD2BD1B80800DE3F46 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FEF823402BD1B9A000DE3F46 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FEF823412BD1B9A500DE3F46 /* en */,
+				FEF823422BD1B9B300DE3F46 /* zh-Hans */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FEF822D32BD1B80800DE3F46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FEF822D42BD1B80800DE3F46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FEF822D62BD1B80800DE3F46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = DirtyJSONMacOSAppDemo/DirtyJSONMacOSAppDemo.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = DirtyJSONMacOSAppDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = im.wuyu.DirtyJSONMacOSAppDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FEF822D72BD1B80800DE3F46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = DirtyJSONMacOSAppDemo/DirtyJSONMacOSAppDemo.entitlements;
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_HARDENED_RUNTIME = YES;
+				INFOPLIST_FILE = DirtyJSONMacOSAppDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = im.wuyu.DirtyJSONMacOSAppDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FEF822D92BD1B80800DE3F46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9PFRXSSH99;
+				INFOPLIST_FILE = DirtyJSONMacOSAppDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = im.wuyu.DirtyJSONMacOSAppDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DirtyJSONMacOSAppDemo.app/Contents/MacOS/DirtyJSONMacOSAppDemo";
+			};
+			name = Debug;
+		};
+		FEF822DA2BD1B80800DE3F46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9PFRXSSH99;
+				INFOPLIST_FILE = DirtyJSONMacOSAppDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				PRODUCT_BUNDLE_IDENTIFIER = im.wuyu.DirtyJSONMacOSAppDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DirtyJSONMacOSAppDemo.app/Contents/MacOS/DirtyJSONMacOSAppDemo";
+			};
+			name = Release;
+		};
+		FEF822DC2BD1B80800DE3F46 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9PFRXSSH99;
+				INFOPLIST_FILE = DirtyJSONMacOSAppDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = im.wuyu.DirtyJSONMacOSAppDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DirtyJSONMacOSAppDemo;
+			};
+			name = Debug;
+		};
+		FEF822DD2BD1B80800DE3F46 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 9PFRXSSH99;
+				INFOPLIST_FILE = DirtyJSONMacOSAppDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = im.wuyu.DirtyJSONMacOSAppDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = DirtyJSONMacOSAppDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FEF822AC2BD1B80700DE3F46 /* Build configuration list for PBXProject "DirtyJSONMacOSAppDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEF822D32BD1B80800DE3F46 /* Debug */,
+				FEF822D42BD1B80800DE3F46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEF822D52BD1B80800DE3F46 /* Build configuration list for PBXNativeTarget "DirtyJSONMacOSAppDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEF822D62BD1B80800DE3F46 /* Debug */,
+				FEF822D72BD1B80800DE3F46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEF822D82BD1B80800DE3F46 /* Build configuration list for PBXNativeTarget "DirtyJSONMacOSAppDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEF822D92BD1B80800DE3F46 /* Debug */,
+				FEF822DA2BD1B80800DE3F46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FEF822DB2BD1B80800DE3F46 /* Build configuration list for PBXNativeTarget "DirtyJSONMacOSAppDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FEF822DC2BD1B80800DE3F46 /* Debug */,
+				FEF822DD2BD1B80800DE3F46 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		FE91F4992BD1BB43003C34B6 /* XCRemoteSwiftPackageReference "DirtyJSONSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wuyu2015/DirtyJSONSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.0.6;
+			};
+		};
+		FEF823432BD1BA5D00DE3F46 /* XCRemoteSwiftPackageReference "StupidNSWindow" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/wuyu2015/StupidNSWindow.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.1.3;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		FE91F49A2BD1BB43003C34B6 /* DirtyJSON */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FE91F4992BD1BB43003C34B6 /* XCRemoteSwiftPackageReference "DirtyJSONSwift" */;
+			productName = DirtyJSON;
+		};
+		FEF823442BD1BA5D00DE3F46 /* StupidNSWindow */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FEF823432BD1BA5D00DE3F46 /* XCRemoteSwiftPackageReference "StupidNSWindow" */;
+			productName = StupidNSWindow;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = FEF822A92BD1B80700DE3F46 /* Project object */;
+}

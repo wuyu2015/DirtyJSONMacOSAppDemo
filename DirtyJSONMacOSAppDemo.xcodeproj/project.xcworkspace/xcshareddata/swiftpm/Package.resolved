@@ -1,0 +1,25 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "DirtyJSON",
+        "repositoryURL": "https://github.com/wuyu2015/DirtyJSONSwift.git",
+        "state": {
+          "branch": null,
+          "revision": "457170ae11b5a7d8944cc48ac4935b669e67240b",
+          "version": "0.0.6"
+        }
+      },
+      {
+        "package": "StupidNSWindow",
+        "repositoryURL": "https://github.com/wuyu2015/StupidNSWindow.git",
+        "state": {
+          "branch": null,
+          "revision": "dc27f22bad2525f9836b59665172c1ec92bfc0a9",
+          "version": "0.1.3"
+        }
+      }
+    ]
+  },
+  "version": 1
+}

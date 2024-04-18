@@ -1,0 +1,69 @@
+// Mark: MainWindow
+"MAIN_WINDOW_TITLE_NEW_TAB" = "JSON Formatter";
+
+// Mark: SegmentedControl
+"SEGMENTED_CONTROL_TITLE_FORMATTED" = "Formatted";
+"SEGMENTED_CONTROL_TITLE_COMPACT" = "Compact";
+"SEGMENTED_CONTROL_TITLE_RAW" = "Raw";
+
+// Mark: PasteButton
+"BUTTON_CLEAR_TITLE" = "Clear";
+"BUTTON_PASTE_TITLE" = "Paste";
+"BUTTON_COPY_TITLE" = "Copy";
+"BUTTON_SAVE_TITLE" = "Save";
+
+// Mark: MainContentView
+"MAIN_CONTENT_VIEW_PLACEHOLDER_TEXT" = "Drag a JSON file to this window or paste JSON content here.";
+
+// Mark: Menu
+// App
+"MENU_APP_NAME" = "JSON Formatter";
+"MENU_APP_ABOUT" = "About %@";
+"MENU_APP_PREFERENCES" = "Preferences…";
+"MENU_APP_SERVICES" = "Services";
+"MENU_APP_HIDE" = "Hide %@";
+"MENU_APP_HIDE_OTHERS" = "Hide Others";
+"MENU_APP_SHOW_ALL" = "Show All";
+"MENU_APP_QUIT" = "Quit %@";
+// File
+"MENU_FILE" = "File";
+"MENU_FILE_NEW_WINDOW" = "New Window";
+"MENU_FILE_NEW_TAB" = "New Tab";
+"MENU_FILE_CLOSE" = "Close";
+"MENU_FILE_CLOSE_TAB" = "Close Tab";
+// Edit
+"MENU_EDIT" = "Edit";
+"MENU_EDIT_UNDO" = "Undo";
+"MENU_EDIT_REDO" = "Redo";
+"MENU_EDIT_CUT" = "Cut";
+"MENU_EDIT_COPY" = "Copy";
+"MENU_EDIT_PASTE" = "Paste";
+"MENU_EDIT_DELETE" = "Delete";
+"MENU_EDIT_SELECT_ALL" = "Select All";
+"MENU_EDIT_START_DICTATION" = "Start Dictation"; // Exists by default
+"MENU_EDIT_EMOJI_AND_SYMBOLS" = "Emoji & Symbols"; // Exists by default
+// View
+"MENU_VIEW" = "View";
+"MENU_VIEW_FORMAT_TYPE_RAW" = "Raw JSON";
+"MENU_VIEW_FORMAT_TYPE_COMPACT" = "Compact JSON";
+"MENU_VIEW_FORMAT_TYPE_FORMATTED" = "Formatted JSON";
+// Window
+"MENU_WINDOW" = "Window";
+"MENU_WINDOW_MINIMIZE" = "Minimize";
+"MENU_WINDOW_ZOOM" = "Zoom"; // 最大化
+"MENU_WINDOW_ENTER_FULLSCREEN" = "Fullscreen";
+"MENU_WINDOW_EXIT_FULLSCREEN" = "Exit Fullscreen";
+"MENU_WINDOW_SHOW_NEXT_TAB" = "Next Tab";
+"MENU_WINDOW_SHOW_PREVIOUS_TAB" = "Previous Tab";
+"MENU_WINDOW_MOVE_TAB_TO_NEW_WINDOW" = "Move Tab to New Window"; // 将当前内容移到新窗口
+"MENU_WINDOW_MERGE_ALL_WINDOWS" = "Merge All Windows"; // 合并窗口
+"MENU_WINDOW_SHOW_TAB_BAR" = "Show Tab Bar";
+"MENU_WINDOW_HIDE_TAB_BAR" = "Hide Tab Bar";
+"MENU_WINDOW_SHOW_TABS_OVERVIEW" = "Show Tabs Overview";
+"MENU_WINDOW_HIDE_TABS_OVERVIEW" = "Hide Tabs Overview";
+"MENU_WINDOW_BRING_ALL_TO_FRONT" = "Bring All to Front";
+"MENU_WINDOW_SEPARATOR_OPENED_WINDOW" = "Opened Window";
+"MENU_WINDOW_SEPARATOR_OPENED_WINDOWS" = "Opened Windows";
+// Help
+"MENU_HELP" = "Help";
+"MENU_HELP_RELEASE_NOTES" = "Release Notes";

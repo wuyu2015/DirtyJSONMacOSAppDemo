@@ -1,0 +1,69 @@
+// Mark: MainWindow
+"MAIN_WINDOW_TITLE_NEW_TAB" = "JSON Formatter";
+
+// Mark: SegmentedControl
+"SEGMENTED_CONTROL_TITLE_FORMATTED" = "格式化";
+"SEGMENTED_CONTROL_TITLE_COMPACT" = "紧凑";
+"SEGMENTED_CONTROL_TITLE_RAW" = "原始";
+
+// Mark: PasteButton
+"BUTTON_CLEAR_TITLE" = "清空";
+"BUTTON_PASTE_TITLE" = "粘贴";
+"BUTTON_COPY_TITLE" = "复制";
+"BUTTON_SAVE_TITLE" = "保存";
+
+// Mark: MainContentView
+"MAIN_CONTENT_VIEW_PLACEHOLDER_TEXT" = "拖 JSON 文件到这里，或粘贴 JSON 内容。";
+
+// Mark: Menu
+// App
+"MENU_APP_NAME" = "JSON Formatter";
+"MENU_APP_ABOUT" = "关于 %@";
+"MENU_APP_PREFERENCES" = "偏好设置…";
+"MENU_APP_SERVICES" = "服务";
+"MENU_APP_HIDE" = "隐藏 %@";
+"MENU_APP_HIDE_OTHERS" = "隐藏其它";
+"MENU_APP_SHOW_ALL" = "显示全部";
+"MENU_APP_QUIT" = "退出 %@";
+// File
+"MENU_FILE" = "文件";
+"MENU_FILE_NEW_WINDOW" = "新窗口";
+"MENU_FILE_NEW_TAB" = "新标签";
+"MENU_FILE_CLOSE" = "关闭";
+"MENU_FILE_CLOSE_TAB" = "关闭标签";
+// Edit
+"MENU_EDIT" = "编辑";
+"MENU_EDIT_UNDO" = "撤销";
+"MENU_EDIT_REDO" = "重做";
+"MENU_EDIT_CUT" = "剪切";
+"MENU_EDIT_COPY" = "拷贝";
+"MENU_EDIT_PASTE" = "粘贴";
+"MENU_EDIT_DELETE" = "删除";
+"MENU_EDIT_SELECT_ALL" = "全选";
+"MENU_EDIT_START_DICTATION" = "开始听写"; // 自动存在
+"MENU_EDIT_EMOJI_AND_SYMBOLS" = "表情与符号"; // 自动存在
+// View
+"MENU_VIEW" = "显示";
+"MENU_VIEW_FORMAT_TYPE_RAW" = "原始";
+"MENU_VIEW_FORMAT_TYPE_COMPACT" = "紧凑";
+"MENU_VIEW_FORMAT_TYPE_FORMATTED" = "格式化";
+// Window
+"MENU_WINDOW" = "窗口";
+"MENU_WINDOW_MINIMIZE" = "最小化";
+"MENU_WINDOW_ZOOM" = "缩放"; // 最大化
+"MENU_WINDOW_ENTER_FULLSCREEN" = "全屏幕";
+"MENU_WINDOW_EXIT_FULLSCREEN" = "退出全屏幕";
+"MENU_WINDOW_SHOW_NEXT_TAB" = "下一标签页";
+"MENU_WINDOW_SHOW_PREVIOUS_TAB" = "上一标签页";
+"MENU_WINDOW_MOVE_TAB_TO_NEW_WINDOW" = "将当前内容移到新窗口";
+"MENU_WINDOW_MERGE_ALL_WINDOWS" = "合并窗口";
+"MENU_WINDOW_SHOW_TAB_BAR" = "显示标签栏";
+"MENU_WINDOW_HIDE_TAB_BAR" = "隐藏标签栏";
+"MENU_WINDOW_SHOW_TABS_OVERVIEW" = "显示标签页概览";
+"MENU_WINDOW_HIDE_TABS_OVERVIEW" = "隐藏标签页概览";
+"MENU_WINDOW_BRING_ALL_TO_FRONT" = "前置全部窗口";
+"MENU_WINDOW_SEPARATOR_OPENED_WINDOW" = "已打开窗口";
+"MENU_WINDOW_SEPARATOR_OPENED_WINDOWS" = "已打开窗口";
+// Help
+"MENU_HELP" = "帮助";
+"MENU_HELP_RELEASE_NOTES" = "版本说明";
